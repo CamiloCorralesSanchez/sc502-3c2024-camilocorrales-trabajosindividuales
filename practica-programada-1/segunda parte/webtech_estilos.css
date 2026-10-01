@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f7ff;
+    text-align: center;
+}
+
+nav {
+    background-color: #5f231e;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(230, 174, 173);
+}
+
+
+.perfil {
+    background-color: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nombre {
+    color: #4d0d0d;
+}
+
+.especialidad {
+    color: #555;
+}
+
+#descripcion {
+    margin: 20px 0;
+}
+
+
+button {
+    background-color: #520d0d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #b52626;
+}
+
+.comentarios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+}
